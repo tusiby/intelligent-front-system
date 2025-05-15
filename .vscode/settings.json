@@ -1,5 +1,5 @@
 {
-    "cSpell.words": [
-        "Nuxt"
-    ]
+  "eslint.useFlatConfig": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }

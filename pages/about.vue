@@ -1,15 +1,16 @@
 <script setup lang="ts">
-const config = useRuntimeConfig()
+const config = useRuntimeConfig();
 definePageMeta({
-  middleware: 'auth'
-})
+  middleware: 'auth',
+});
 </script>
+
 <template>
-    <h1>Header</h1>
-    <Accordion>Test Component</Accordion>
+  <Accordion>Test Component</Accordion>
 </template>
+
 <style>
 h1 {
-    color: red;
+  color: red;
 }
 </style>
