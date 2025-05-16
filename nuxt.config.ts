@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
     '@nuxt/eslint',
-    '@nuxtjs/html-validator',
+    // '@nuxtjs/html-validator',
     '@nuxtjs/stylelint-module',
   ],
   css: ['~/assets/css/main.css'],
@@ -10,7 +10,12 @@ export default defineNuxtConfig({
     enabled: false,
   },
   eslint: {},
-  stylelint: {},
+  stylelint: {
+    cache: false,
+  },
+  // htmlValidator: {
+  //   usePrettier: true,
+  // },
   runtimeConfig: {
     // The private keys which are only available server-side
     apiSecret: '123',

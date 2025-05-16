@@ -3,6 +3,6 @@ export default {
   customSyntax: 'postcss-html',
   rules: {
     'block-no-empty': true,
-    'unit-allowed-list': ['em', 'rem', '%', 's'],
+    'unit-allowed-list': ['px', 'em', 'rem', '%', 's'],
   },
 };

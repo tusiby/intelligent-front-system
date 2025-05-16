@@ -1,9 +1,6 @@
 <template>
-  <div>
-    <AppHeader />
-    <SidebarMenu />
-    <slot />
-    <ColorModeButton />
-    <AppFooter />
-  </div>
+  <AppHeader />
+  <SidebarMenu />
+  <slot />
+  <ColorModeButton />
 </template>

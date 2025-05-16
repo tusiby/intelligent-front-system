@@ -25,9 +25,3 @@ const isDark = computed({
     </template>
   </ClientOnly>
 </template>
-
-<style>
-h1 {
-  margin: '10px';
-}
-</style>
