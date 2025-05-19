@@ -1,17 +1,25 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
-    '@nuxt/eslint',
-    // '@nuxtjs/html-validator',
+    '@nuxtjs/i18n',
+    '@nuxt/eslint', // '@nuxtjs/html-validator',
     '@nuxtjs/stylelint-module',
+    '@compodium/nuxt',
   ],
   css: ['~/assets/css/main.css'],
   devtools: {
-    enabled: false,
+    enabled: true,
   },
   eslint: {},
   stylelint: {
     cache: false,
+  },
+  i18n: {
+    defaultLocale: 'en',
+    locales: [
+      { code: 'en', name: 'English', file: 'en.json' },
+      { code: 'nl', name: 'Nederlands', file: 'nl.json' },
+    ],
   },
   // htmlValidator: {
   //   usePrettier: true,
