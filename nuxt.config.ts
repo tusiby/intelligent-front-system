@@ -15,10 +15,11 @@ export default defineNuxtConfig({
     cache: false,
   },
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'ru',
+    strategy: 'no_prefix',
     locales: [
-      { code: 'en', name: 'English', file: 'en.json' },
-      { code: 'nl', name: 'Nederlands', file: 'nl.json' },
+      { code: 'ru', name: 'Russian', file: 'ru.json' },
+      { code: 'en', name: 'English', file: 'ru.json' },
     ],
   },
   // htmlValidator: {
@@ -34,6 +35,9 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/about': { prerender: true },
+  },
+  experimental: {
+    scanPageMeta: true,
   },
   compatibilityDate: '2025-03-21',
 });
