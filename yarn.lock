@@ -1463,6 +1463,28 @@
     pathe "^2.0.3"
     std-env "^3.9.0"
 
+"@nuxt/scripts@0.11.7":
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/@nuxt/scripts/-/scripts-0.11.7.tgz#c77b4e6b56aad0d70be4c12c0adfd13d1e6a5201"
+  integrity sha512-ioDaQqXOgIFEqO3u59hFzZyoof99C2b6qmbdTQO+PvzuENxFe0KokJ/pJ0j2vHuXyJr55qmBCJVA0tPKyTFJSw==
+  dependencies:
+    "@nuxt/kit" "^3.17.3"
+    "@vueuse/core" "^13.2.0"
+    consola "^3.4.2"
+    defu "^6.1.4"
+    h3 "^1.15.3"
+    magic-string "^0.30.17"
+    ofetch "^1.4.1"
+    ohash "^2.0.11"
+    pathe "^2.0.3"
+    pkg-types "^2.1.0"
+    sirv "^3.0.1"
+    std-env "^3.9.0"
+    ufo "^1.6.1"
+    unplugin "^2.3.4"
+    unstorage "^1.16.0"
+    valibot "^1.1.0"
+
 "@nuxt/telemetry@^2.6.6":
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/@nuxt/telemetry/-/telemetry-2.6.6.tgz#5e663041eccbc900a743cbe82bac5b91f9a8263a"
@@ -2528,6 +2550,14 @@
     hookable "^5.5.3"
     unhead "2.0.8"
 
+"@unhead/vue@^2.0.3":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-2.0.9.tgz#fdf4b222e3cfeff3b5c1fdc5bd4c389bd02406f3"
+  integrity sha512-0t8YXVXvEgXkXhCb22hqPrsgun3Jqul/ZvydgBY0SlEfEbC1ioL15/1QuJwBFG3us6OnSewjbDagg4Jh478g8g==
+  dependencies:
+    hookable "^5.5.3"
+    unhead "2.0.9"
+
 "@unrs/resolver-binding-darwin-arm64@1.7.2":
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/@unrs/resolver-binding-darwin-arm64/-/resolver-binding-darwin-arm64-1.7.2.tgz#12eed2bd9865d1f55bb79d76072330b6032441d7"
@@ -2875,7 +2905,7 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.5.14.tgz#8fcdc6c69661a1163c173cafb6129c3f8ad01122"
   integrity sha512-oXTwNxVfc9EtP1zzXAlSlgARLXNC84frFYkS0HHz0h3E4WZSP9sywqjqzGCP9Y34M8ipNmd380pVgmMuwELDyQ==
 
-"@vueuse/core@13.2.0", "@vueuse/core@^13.0.0", "@vueuse/core@^13.1.0":
+"@vueuse/core@13.2.0", "@vueuse/core@^13.0.0", "@vueuse/core@^13.1.0", "@vueuse/core@^13.2.0":
   version "13.2.0"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-13.2.0.tgz#f19afa06449110ff3a649ea06b661c3c37c43c34"
   integrity sha512-n5TZoIAxbWAQ3PqdVPDzLgIRQOujFfMlatdI+f7ditSmoEeNpPBvp7h2zamzikCmrhFIePAwdEQB6ENccHr7Rg==
@@ -9375,6 +9405,13 @@ unhead@2.0.8:
   dependencies:
     hookable "^5.5.3"
 
+unhead@2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/unhead/-/unhead-2.0.9.tgz#0ad0cae31c28c44f17afac9d58f18d064f1a9dd6"
+  integrity sha512-ZLTNJ51PZPO4/3keW7FHiTMb6K+JmhhVApJA52qWNw7NMYPD8fM2eA+hUEaCA2L5bZtbRg43TT7n/lJ+/9o6pw==
+  dependencies:
+    hookable "^5.5.3"
+
 unicode-properties@^1.4.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/unicode-properties/-/unicode-properties-1.4.1.tgz#96a9cffb7e619a0dc7368c28da27e05fc8f9be5f"
@@ -9658,6 +9695,11 @@ uuid@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-11.1.0.tgz#9549028be1753bb934fc96e2bca09bb4105ae912"
   integrity sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==
+
+valibot@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/valibot/-/valibot-1.1.0.tgz#873bb1af9e1577391690307bfe0520bd1360ec2d"
+  integrity sha512-Nk8lX30Qhu+9txPYTwM0cFlWLdPFsFr6LblzqIySfbZph9+BFsAHsNvHOymEviUepeIW6KFHzpX8TKhbptBXXw==
 
 validate-npm-package-license@^3.0.4:
   version "3.0.4"

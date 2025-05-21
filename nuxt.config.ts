@@ -1,6 +1,17 @@
 export default defineNuxtConfig({
-  modules: [// '@nuxtjs/html-validator',
-  '@nuxt/ui', '@nuxtjs/i18n', '@nuxt/eslint', '@nuxtjs/stylelint-module', '@compodium/nuxt', '@pinia/nuxt', 'nuxt-typed-router', 'dayjs-nuxt', '@vueuse/nuxt'],
+  modules: [
+    // '@nuxtjs/html-validator',
+    '@nuxt/ui',
+    '@nuxtjs/i18n',
+    '@nuxt/eslint',
+    '@nuxtjs/stylelint-module',
+    '@compodium/nuxt',
+    '@pinia/nuxt',
+    'nuxt-typed-router',
+    'dayjs-nuxt',
+    '@vueuse/nuxt',
+    '@nuxt/scripts',
+  ],
   css: ['~/assets/css/main.css'],
   devtools: {
     enabled: true,
