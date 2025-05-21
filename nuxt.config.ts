@@ -1,11 +1,12 @@
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/ui',
-    '@nuxtjs/i18n', // '@nuxtjs/html-validator',
+    '@nuxt/ui', // '@nuxtjs/html-validator',
+    '@nuxtjs/i18n',
     '@nuxt/eslint',
     '@nuxtjs/stylelint-module',
     '@compodium/nuxt',
     '@pinia/nuxt',
+    'nuxt-typed-router',
   ],
   css: ['~/assets/css/main.css'],
   devtools: {
