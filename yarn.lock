@@ -2927,6 +2927,16 @@
   resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-13.2.0.tgz#a839028d43c3206b674dd1d59a77b9c80f4d9d5f"
   integrity sha512-kPpzuQCU0+D8DZCzK0iPpIcXI+6ufWSgwnjJ6//GNpEn+SHViaCtR+XurzORChSgvpHO9YC8gGM97Y1kB+UabA==
 
+"@vueuse/nuxt@13.2.0":
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/nuxt/-/nuxt-13.2.0.tgz#9f34b5e160ca68bd345828f04579af3db123a9c6"
+  integrity sha512-vLEyR2njEpugSOi12SuWwrClFxXrG/X20XExvkdHhIZ2R5qhm3wbmThUmHZ9K8AJI1+Y1m/qJUzmrac2FtLreA==
+  dependencies:
+    "@nuxt/kit" "^3.17.3"
+    "@vueuse/core" "13.2.0"
+    "@vueuse/metadata" "13.2.0"
+    local-pkg "^1.1.1"
+
 "@vueuse/shared@10.11.1":
   version "10.11.1"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-10.11.1.tgz#62b84e3118ae6e1f3ff38f4fbe71b0c5d0f10938"

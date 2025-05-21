@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import ruMessages from './locale.ru.json';
 import enMessages from './locale.en.json';
-
+const { x, y } = useMouse();
 const { t } = useI18n({
   messages: {
     ru: ruMessages,
