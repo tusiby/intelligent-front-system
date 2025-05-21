@@ -11,6 +11,8 @@ export default defineNuxtConfig({
     'dayjs-nuxt',
     '@vueuse/nuxt',
     '@nuxt/scripts',
+    '@nuxt/image',
+    'nuxt-svgo',
   ],
   css: ['~/assets/css/main.css'],
   devtools: {
