@@ -1,12 +1,14 @@
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/ui', // '@nuxtjs/html-validator',
+    // '@nuxtjs/html-validator',
+    '@nuxt/ui',
     '@nuxtjs/i18n',
     '@nuxt/eslint',
     '@nuxtjs/stylelint-module',
     '@compodium/nuxt',
     '@pinia/nuxt',
     'nuxt-typed-router',
+    'dayjs-nuxt',
   ],
   css: ['~/assets/css/main.css'],
   devtools: {
@@ -23,6 +25,10 @@ export default defineNuxtConfig({
       { code: 'ru', name: 'Russian', file: 'ru.json' },
       { code: 'en', name: 'English', file: 'ru.json' },
     ],
+  },
+  dayjs: {
+    locales: ['ru'],
+    defaultLocale: 'ru',
   },
   // htmlValidator: {
   //   usePrettier: true,

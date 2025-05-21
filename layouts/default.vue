@@ -14,6 +14,7 @@ const { t } = useI18n({
   <SidebarMenu />
   <UButton color="error">{{ t('name') }}</UButton>
   <UButton color="secondary">{{ $t('pages.layout.welcome') }}</UButton>
+
   <slot />
   <ColorModeButton />
 </template>
