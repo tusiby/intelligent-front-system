@@ -1,0 +1,16 @@
+{
+  "common": {
+    "header": {
+      "demo": "Demo Application"
+    },
+    "layout": {
+      "welcome": "Добро пожаловать"
+    }
+  },
+  "menu": {
+    "todo": "Todo List",
+    "api": "Service Api",
+    "table": "Table",
+    "search": "Search"
+  }
+}

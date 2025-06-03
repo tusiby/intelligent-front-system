@@ -1,14 +1,25 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui';
+const { t } = useI18n();
 
-const items = ref<NavigationMenuItem[][]>([
+const items = computed<NavigationMenuItem[][]>(() => [
   [
     {
-      label: 'Components',
+      label: t('menu.todo'), // Автоматически обновится при смене языка
       icon: 'i-lucide-box',
-      // to: '/components',
       active: true,
-      defaultOpen: true,
+    },
+    {
+      label: t('menu.api'),
+      icon: 'i-lucide-box',
+    },
+    {
+      label: t('menu.table'),
+      icon: 'i-lucide-box',
+    },
+    {
+      label: t('menu.search'),
+      icon: 'i-lucide-box',
     },
   ],
 ]);

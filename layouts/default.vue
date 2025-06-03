@@ -38,4 +38,3 @@ useScriptTag(
   <UButton color="secondary">{{ $t('pages.layout.welcome') }}</UButton> -->
   <!-- <slot /> -->
 </template>
-<style scoped></style>

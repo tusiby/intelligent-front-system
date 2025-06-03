@@ -27,7 +27,7 @@ export default defineNuxtConfig({
     strategy: 'no_prefix',
     locales: [
       { code: 'ru', name: 'Russian', file: 'ru.json' },
-      { code: 'en', name: 'English', file: 'ru.json' },
+      { code: 'en', name: 'English', file: 'en.json' },
     ],
   },
   dayjs: {

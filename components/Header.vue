@@ -1,7 +1,7 @@
 <template>
   <div className="header">
-    <div className="menu"><UButton /></div>
-    <div className="Buttons"><ColorModeButton /></div>
+    <div className="menu">{{ $t('common.header.demo') }}</div>
+    <div className="buttons"><ColorModeButton /><LanguageButton /></div>
   </div>
 </template>
 
